@@ -38,3 +38,7 @@ type Dados struct {
     Variavel4 NestedData 
 }
 ```
+
+Para chamar uma função como go routine, basta usar:
+
+``` go Funcao(parametros) ```
