@@ -20,7 +20,7 @@ func main() {
 	sliceExample()
 	ret := sumFunction(1, 1)
 	if ret == 2 {
-		go hisIsaGoroutine()
+		go thisIsaGoroutine()
 	} else {
 		fmt.Println("The Goroutine will not be called")
 	}
